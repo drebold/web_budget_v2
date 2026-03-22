@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Manager</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Budget Manager</h1>
+    <div class="header-actions">
+      <button class="btn btn-secondary" onclick="exportBudget()">Export JSON</button>
+      <label class="btn btn-secondary">
+        Import JSON
+        <input type="file" id="importFile" accept=".json" onchange="importBudget(event)" hidden>
+      </label>
+    </div>
+  </div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="expenses" onclick="showTab('expenses', this)">Expenses</button>
+    <button class="tab" data-tab="monthly" onclick="showTab('monthly', this)">Monthly View</button>
+    <button class="tab" data-tab="summary" onclick="showTab('summary', this)">Summary</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Expenses Tab -->
+  <section id="tab-expenses" class="tab-pane active">
+    <div class="pane-header">
+      <h2>All Expenses</h2>
+      <button class="btn btn-primary" onclick="openModal()">+ Add Expense</button>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>My %</th>
+            <th>Wife %</th>
+            <th>My Amount</th>
+            <th>Wife Amount</th>
+            <th>First Month</th>
+            <th>Payments/yr</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="expenses-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Monthly Tab -->
+  <section id="tab-monthly" class="tab-pane">
+    <h2>Monthly Breakdown</h2>
+    <div id="monthly-container"></div>
+  </section>
+
+  <!-- Summary Tab -->
+  <section id="tab-summary" class="tab-pane">
+    <h2>Summary &amp; Deposit Plan</h2>
+    <div id="summary-cards" class="cards-grid"></div>
+    <h3>Monthly Balance Progression</h3>
+    <p class="hint">
+      "Balance (start of month)" = joint account balance before that month's deposit is added.<br>
+      "Balance (end of month)" = balance after deposit and all expenses are paid.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>My Expenses</th>
+            <th>Wife Expenses</th>
+            <th>Total Expenses</th>
+            <th>Balance (start of month)</th>
+            <th>Balance (end of month)</th>
+          </tr>
+        </thead>
+        <tbody id="balance-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<!-- Add/Edit Modal -->
+<div id="modal" class="modal hidden" onclick="backdropClose(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 id="modal-title">Add Expense</h3>
+      <button class="btn-close" onclick="closeModal()">&times;</button>
+    </div>
+    <form id="expense-form" onsubmit="saveExpense(event)">
+      <div class="field">
+        <label>Name</label>
+        <input type="text" id="f-name" required placeholder="e.g. Rent">
+      </div>
+      <div class="field">
+        <label>Total Amount</label>
+        <input type="number" id="f-amount" min="0" step="0.01" required placeholder="0.00">
+      </div>
+      <div class="field share-field">
+        <div class="share-labels">
+          <span>My share: <strong id="my-share-val">50</strong>%</span>
+          <span>Wife share: <strong id="wife-share-val">50</strong>%</span>
+        </div>
+        <input type="range" id="f-my-share" min="0" max="100" value="50" oninput="updateShares()">
+        <div class="share-amounts hidden" id="share-amounts">
+          <span id="my-share-amt"></span>
+          <span id="wife-share-amt"></span>
+        </div>
+      </div>
+      <div class="field">
+        <label>First Month of Payment</label>
+        <input type="month" id="f-first-month" required>
+      </div>
+      <div class="field">
+        <label>Payments per Year</label>
+        <select id="f-ppy">
+          <option value="1">1 — Annual (once a year)</option>
+          <option value="2">2 — Semi-annual (every 6 months)</option>
+          <option value="3">3 — Every 4 months</option>
+          <option value="4">4 — Quarterly (every 3 months)</option>
+          <option value="6">6 — Bi-monthly (every 2 months)</option>
+          <option value="12" selected>12 — Monthly</option>
+        </select>
+      </div>
+      <input type="hidden" id="f-id">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary">Save</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

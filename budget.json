@@ -1,0 +1,310 @@
+{
+  "expenses": [
+    {
+      "name": "IDA",
+      "amount": 878,
+      "my_share_pct": 100,
+      "wife_share_pct": 0,
+      "first_month": "2026-02",
+      "payments_per_year": 4,
+      "id": "b524140c-fa5a-4529-a0ad-a9c143729784"
+    },
+    {
+      "name": "AKA",
+      "amount": 1551,
+      "my_share_pct": 100,
+      "wife_share_pct": 0,
+      "first_month": "2026-01",
+      "payments_per_year": 4,
+      "id": "e8eefa0a-f646-484f-a2fd-ac82e69cb6fa"
+    },
+    {
+      "name": "La Famiglia",
+      "amount": 109,
+      "my_share_pct": 100,
+      "wife_share_pct": 0,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "4180ad87-00b8-497f-b658-9e631dc891fd"
+    },
+    {
+      "name": "Totalkredit",
+      "amount": 18500,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 4,
+      "id": "67234cde-a83f-4749-aeee-6121235d487d"
+    },
+    {
+      "name": "Totalkredit SU",
+      "amount": 3860,
+      "my_share_pct": 0,
+      "wife_share_pct": 100,
+      "first_month": "2026-03",
+      "payments_per_year": 4,
+      "id": "4b1e46dd-b02b-495b-b0c3-96f9da186ac0"
+    },
+    {
+      "name": "Spotify",
+      "amount": 199,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "ab7fde30-6d45-46d5-827b-d09d0b695f82"
+    },
+    {
+      "name": "Telmore",
+      "amount": 439,
+      "my_share_pct": 63,
+      "wife_share_pct": 37,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "8e73b9f2-25a9-41c0-b3e7-33dc8f15260a"
+    },
+    {
+      "name": "Lebara",
+      "amount": 20,
+      "my_share_pct": 0,
+      "wife_share_pct": 100,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "a2d7f08c-1a34-402c-a486-9ab7a4ce39bd"
+    },
+    {
+      "name": "Vindst\u00f8d",
+      "amount": 6200,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 4,
+      "id": "ac9ba941-6f94-424a-bd37-c83480810928"
+    },
+    {
+      "name": "Sygesikring DK",
+      "amount": 870,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-01",
+      "payments_per_year": 4,
+      "id": "4bcd582e-1436-4f66-b345-e64bdc800150"
+    },
+    {
+      "name": "Ejendomsskat",
+      "amount": 1800,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-02",
+      "payments_per_year": 2,
+      "id": "aae917a4-6c13-4e7a-9271-51160c4067a1"
+    },
+    {
+      "name": "Motorafgift Rumbus",
+      "amount": 1730,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-02",
+      "payments_per_year": 2,
+      "id": "4372c2f6-bcac-4468-9821-7bac0ea4f636"
+    },
+    {
+      "name": "Motorafgift Panda",
+      "amount": 420,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-05",
+      "payments_per_year": 2,
+      "id": "5ec7b6d8-8fe2-4df9-98e7-7a1202153569"
+    },
+    {
+      "name": "Bill\u00e5n LSB",
+      "amount": 3350,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-01",
+      "payments_per_year": 12,
+      "id": "ee6ae256-c8f2-481e-8f66-48f3f63efa74"
+    },
+    {
+      "name": "Rumbus Service NCC",
+      "amount": 540,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "a6ab5ba5-ab08-448f-ac6e-87eb0f29486a"
+    },
+    {
+      "name": "Vandmilj\u00f8 Randers",
+      "amount": 3990,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 2,
+      "id": "b07c3d1f-6bee-42e7-a0c1-0ec3279eceb8"
+    },
+    {
+      "name": "Str\u00f8mmen vandv\u00e6rk",
+      "amount": 1450,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-02",
+      "payments_per_year": 2,
+      "id": "89e843a8-29c3-45d8-bc45-324efb20d43d"
+    },
+    {
+      "name": "Motorafgift CV",
+      "amount": 454,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-05",
+      "payments_per_year": 2,
+      "id": "a4e1dda6-3268-4a88-9652-678a652c38c2"
+    },
+    {
+      "name": "Motorafgift Trailer",
+      "amount": 120.75,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-05",
+      "payments_per_year": 2,
+      "id": "9b657569-9e8e-4403-8a9d-51a36ccf76be"
+    },
+    {
+      "name": "Tryg Indbo",
+      "amount": 337,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "7dc443de-5a4d-4fb6-b9dc-bad4b3460643"
+    },
+    {
+      "name": "Tryg Ulykke",
+      "amount": 90,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "1b52e475-4a37-4e66-ae2f-cd17eb104df7"
+    },
+    {
+      "name": "Tryg Rumbus",
+      "amount": 1100,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "c70e7c0c-bd7c-4f8d-8731-80fc7d71ee3f"
+    },
+    {
+      "name": "Tryg Panda",
+      "amount": 3950,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-02",
+      "payments_per_year": 1,
+      "id": "01afb27c-6a26-4bca-ac2d-e3721ecdb165"
+    },
+    {
+      "name": "Tryg Person Naja",
+      "amount": 1900,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 1,
+      "id": "2c086e9a-caca-44bc-8b00-a2bafc00aeec"
+    },
+    {
+      "name": "Tryg Hus",
+      "amount": 550,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "aca3d983-17fb-45f8-86c9-d3344d944eed"
+    },
+    {
+      "name": "GF Hund",
+      "amount": 220,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "8777e62c-afda-4c8a-84b1-6bf8479287ff"
+    },
+    {
+      "name": "Din Sundhedsfaglige",
+      "amount": 1470,
+      "my_share_pct": 0,
+      "wife_share_pct": 100,
+      "first_month": "2026-04",
+      "payments_per_year": 4,
+      "id": "81c1291d-f84a-4c8c-9117-0b5f0602aa73"
+    },
+    {
+      "name": "ASE A-kasse",
+      "amount": 74,
+      "my_share_pct": 0,
+      "wife_share_pct": 100,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "afde0ef0-f15b-40db-be00-59d291d4bdcf"
+    },
+    {
+      "name": "Banedanmark",
+      "amount": 830,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-01",
+      "payments_per_year": 1,
+      "id": "4722d967-846c-40f2-a48a-167a07457b13"
+    },
+    {
+      "name": "ADHD Foreningen",
+      "amount": 500,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-02",
+      "payments_per_year": 1,
+      "id": "967d7b41-073f-4703-8799-ece7500bab84"
+    },
+    {
+      "name": "MD Kontingent",
+      "amount": 550,
+      "my_share_pct": 100,
+      "wife_share_pct": 0,
+      "first_month": "2026-04",
+      "payments_per_year": 1,
+      "id": "f7725022-b8d0-4530-9aa5-01031ef2c772"
+    },
+    {
+      "name": "Tryg \u00c5rsrejse",
+      "amount": 105,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "cbeaa4da-fde8-4710-9fac-5aba3c0f4d1b"
+    },
+    {
+      "name": "Ikano Bank",
+      "amount": 1064,
+      "my_share_pct": 60,
+      "wife_share_pct": 40,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "4b90cf8b-5505-48cf-9ddd-37d28a8c03a6"
+    },
+    {
+      "name": "Naja Frokost",
+      "amount": 240,
+      "my_share_pct": 0,
+      "wife_share_pct": 100,
+      "first_month": "2026-03",
+      "payments_per_year": 12,
+      "id": "934b9d5f-3d43-42a3-9082-2a9c4e281b7c"
+    }
+  ]
+}
